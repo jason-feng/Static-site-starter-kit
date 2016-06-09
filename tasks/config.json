@@ -1,8 +1,7 @@
 {
-  "assets": {
-		"src": "src/assets/**/*",
-		"dest": "."
-	},
+  "assets": [
+    { "src": "src/assets/**/*", "dest": "." }
+  ],
 	"buildDir": "dist",
 	"handlebars": {
 		"context": "src/templates/context.js",
@@ -23,7 +22,7 @@
 		"dest": "js"
 	},
 	"scss": {
-		"includePaths": "",
+		"includePaths": [],
 		"lint": "src/scss/**/*.scss",
 		"src": "src/scss/main.scss",
 		"name": "all.min.css",
